@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:layout_x="90dp"
+        android:layout_y="0dp"
+        android:textSize="25dp"
+
+        android:textStyle="italic"
+
+         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="25dp"
+        android:hint="Enter First no."
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:id="@+id/txt1"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="70dp"
+        android:hint="Enter second no."
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:id="@+id/txt2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_x="60dp"
+        android:layout_y="150dp"
+        android:text="Add"
+        android:id="@+id/add"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_x="60dp"
+        android:layout_y="200dp"
+        android:text="sub"
+        android:id="@+id/sub"
+/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_x="160dp"
+        android:layout_y="200dp"
+        android:text="Div"
+        android:id="@+id/div"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_x="160dp"
+        android:layout_y="150dp"
+        android:text="Mul"
+        android:id="@+id/mul"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:layout_x="30dp"
+        android:layout_y="280dp"
+        android:textStyle="bold"
+        android:id="@+id/re"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="280dp"
+        android:textSize="30dp"
+        android:id="@+id/eresult"
+        />
+</AbsoluteLayout>
